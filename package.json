@@ -7,6 +7,7 @@
     "start:dev": "tsx watch src/infra/server.ts",
     "start:prd": "node dist/src/infra/server.js",
     "build": "swc src --ignore **/*.spec.ts,**/*.e2e-spec.ts -d dist",
+    "ts:check": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:cov": "vitest run --coverage",
